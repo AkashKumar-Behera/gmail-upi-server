@@ -1,9 +1,9 @@
 {
   "name": "gmail-upi-server",
   "version": "1.0.0",
-  "main": "upiServer.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node upiServer.js",
+    "start": "node server.js",
     "reader": "node gmailReader.js",
     "auth": "node gmailAuth.js"
   },
