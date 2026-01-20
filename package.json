@@ -1,0 +1,17 @@
+{
+  "name": "gmail-upi-server",
+  "version": "1.0.0",
+  "main": "upiServer.js",
+  "scripts": {
+    "start": "node upiServer.js",
+    "reader": "node gmailReader.js",
+    "auth": "node gmailAuth.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "googleapis": "^170.0.0"
+  }
+}
